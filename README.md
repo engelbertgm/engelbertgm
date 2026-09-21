@@ -2,26 +2,12 @@
 
 I'm Engel. Most of the projects here are love/passion/curiosity-driven.
 
-Engineering background; code became my second workshop.
+I studies  background; code became my second workshop.
 That degree taught me to think in systems, processes and bottlenecks, which is exactly how I approach software projects.
 
 Passionate about: art, ballet, music, AI, business and people.
 
 
-<!--
-**e-mdj7/e-mdj7** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
 #### Tools I've built with
 
 I'm not a software engineer. I've built enough with these tools to know what each one does, how they fit together and where projects get stuck. That's what I bring to a team as a Technical Program Manager.
@@ -29,6 +15,7 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 **Languages**
 
 ![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat-square&logo=html5&logoColor=white)
+![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
 
@@ -76,17 +63,18 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 ![Asana](https://img.shields.io/badge/Asana-F06A6A?style=flat-square&logo=asana&logoColor=white)
 ![SAP](https://img.shields.io/badge/SAP-0FAAFF?style=flat-square&logo=sap&logoColor=white)
 ![Jira](https://img.shields.io/badge/Jira-0052CC?style=flat-square&logo=jira&logoColor=white)
+![Azure DevOps](https://img.shields.io/badge/Azure_DevOps-00AEEF?style=flat-square&logo=azuredevops&logoColor=white)
 
 
 ## Projects
 
 | Project | What it does | Stack | Version | Status | Link |
 |---|---|---|---|---|---|
-| **Demi** | Ballet musicality and exercise trainer. 22 paying users, 100% retention (5 mo) | React+Tailwind, JavaScript, Firebase, ESLint | ![Version](https://img.shields.io/badge/version-1.0-success?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [demi-ballet.web.app](https://demi-ballet.web.app) |
+| **Demi** | Ballet musicality and exercise trainer. 22 paying users, 100% retention (5 mo) | React+Tailwind, JavaScript, Firebase, ESLint, Vite, shadcn/ui | ![Version](https://img.shields.io/badge/version-1.0-success?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [demi-ballet.web.app](https://demi-ballet.web.app) |
 | **StackForge** | Visual technology-stack builder. 350-entry catalog where compatibility is declared as data, so the diagram is derived from rules rather than drawn by hand | React+TS+Tailwind, shadcn/ui, React Flow, Zustand, Vite | ![Version](https://img.shields.io/badge/version-0.3.0-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/e-mdj7/StackForge) |
-| **Ledgr** | Personal finance tracker. Multi-account, MSI handling, Sankey cash-flow viz | React+TS+Tailwind, Firebase, i18next | ![Version](https://img.shields.io/badge/version-0.1.4-blue?style=flat-square)  ![Next](https://img.shields.io/badge/next-0.2.0--dev-yellow?style=flat-square) | ![Next](https://img.shields.io/badge/active--dev-success?style=flat-square) | Private |
+| **Ledgr** | Personal finance tracker. Multi-account, MSI handling, Sankey cash-flow viz | React+TS+Tailwind, Firebase, i18next, Vite, D3 | ![Version](https://img.shields.io/badge/version-0.1.4-blue?style=flat-square)  ![Next](https://img.shields.io/badge/next-0.2.0--dev-yellow?style=flat-square) | ![Next](https://img.shields.io/badge/active--dev-success?style=flat-square) | Private |
 | **Chord Ghost** | MuseScore 4 plugin. Roman-numeral analysis, cadence detection, custom canvas renderer | QML | ![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/e-mdj7/ChordGhost) |
-| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM | Next.js, TypeScript, PostgreSQL/Prisma, Auth0, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
+| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM | Next.js, TypeScript, Supabase (PostgreSQL)/Prisma, Auth0, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
 | **Risk-Neutral Density (Breeden-Litzenberger)** | Recovering implied risk-neutral density from options data | Python | | ![Next](https://img.shields.io/badge/in--progress-yellow?style=flat-square) | TBD |
 <!--
 ## Upcoming
