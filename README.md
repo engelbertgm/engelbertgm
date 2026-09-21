@@ -2,7 +2,7 @@
 
 I'm Engel. Most of the projects here are love/passion/curiosity-driven.
 
-I studies  background; code became my second workshop.
+I studied Mechanical Management Engineering; code became my second workshop.
 That degree taught me to think in systems, processes and bottlenecks, which is exactly how I approach software projects.
 
 Passionate about: art, ballet, music, AI, business and people.
@@ -72,9 +72,9 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 | Project | What it does | Stack | Version | Status | Link |
 |---|---|---|---|---|---|
 | **Demi** | Ballet musicality and exercise trainer. 22 paying users, 100% retention (5 mo) | React+Tailwind, JavaScript, Firebase, ESLint, Vite, shadcn/ui | ![Version](https://img.shields.io/badge/version-1.0-success?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [demi-ballet.web.app](https://demi-ballet.web.app) |
-| **StackForge** | Visual technology-stack builder. 350-entry catalog where compatibility is declared as data, so the diagram is derived from rules rather than drawn by hand | React+TS+Tailwind, shadcn/ui, React Flow, Zustand, Vite | ![Version](https://img.shields.io/badge/version-0.3.0-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/e-mdj7/StackForge) |
+| **StackForge** | Visual technology-stack builder. 350-entry catalog where compatibility is declared as data, so the diagram is derived from rules rather than drawn by hand | React+TS+Tailwind, shadcn/ui, React Flow, Zustand, Vite | ![Version](https://img.shields.io/badge/version-0.3.0-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/engelbertgm/StackForge) |
 | **Ledgr** | Personal finance tracker. Multi-account, MSI handling, Sankey cash-flow viz | React+TS+Tailwind, Firebase, i18next, Vite, D3 | ![Version](https://img.shields.io/badge/version-0.1.4-blue?style=flat-square)  ![Next](https://img.shields.io/badge/next-0.2.0--dev-yellow?style=flat-square) | ![Next](https://img.shields.io/badge/active--dev-success?style=flat-square) | Private |
-| **Chord Ghost** | MuseScore 4 plugin. Roman-numeral analysis, cadence detection, custom canvas renderer | QML | ![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/e-mdj7/ChordGhost) |
+| **Chord Ghost** | MuseScore 4 plugin. Roman-numeral analysis, cadence detection, custom canvas renderer | QML | ![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/engelbertgm/ChordGhost) |
 | **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM | Next.js, TypeScript, Supabase (PostgreSQL)/Prisma, Auth0, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
 | **Risk-Neutral Density (Breeden-Litzenberger)** | Recovering implied risk-neutral density from options data | Python | | ![Next](https://img.shields.io/badge/in--progress-yellow?style=flat-square) | TBD |
 <!--
