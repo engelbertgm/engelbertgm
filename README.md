@@ -2,7 +2,7 @@
 
 I'm Engel. Most of the projects here are love/passion/curiosity-driven.
 
-I studied Mechanical Management Engineering; code became my second workshop.
+I studied Mechanical-Industrial Management Engineering; code became my second workshop.
 That degree taught me to think in systems, processes and bottlenecks, which is exactly how I approach software projects.
 
 Passionate about: art, ballet, music, AI, business and people.
