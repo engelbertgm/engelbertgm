@@ -1,18 +1,15 @@
-## Engel Mandujano · Senior Technical Program Manager
+## Engel Mandujano · AI Software Engineer
 
-HW/SW programs at Bosch · AI adoption · Building products end-to-end
+LLM systems, RAG and agentic workflows · 7 years delivering HW/SW programs at Bosch
 
-I'm Engel. Most of the projects here are love/passion/curiosity-driven.
+I build and run production LLM systems: a RAG for technical requirements used by about 10 engineers, and a project-management agent used by a team of 8. Both run on Gemini. I work spec-first, let agents do long unattended runs, and put hard quality gates around the code they write (mypy strict, ruff, pytest, CI, an automated reviewer, security scans).
 
-I studied Mechanical-Industrial Management Engineering; code became my second workshop.
-That degree taught me to think in systems, processes and bottlenecks, which is exactly how I approach software projects.
+I studied Mechanical-Industrial Management Engineering. That degree taught me to think in systems, processes and bottlenecks, which is how I approach software too. My coding is recent (about a year) and AI-assisted, and my job is to specify, verify and own what ships.
 
 Passionate about: art, ballet, music, AI, business and people.
 
 
 #### Tools I've built with
-
-I'm not a software engineer. I've built enough with these tools to know what each one does, how they fit together and where projects get stuck. That's what I bring to a team as a Technical Program Manager.
 
 **Languages**
 
@@ -20,6 +17,7 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 ![Javascript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black)
 ![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat-square&logo=typescript&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-663399?style=flat-square&logo=css&logoColor=white)
+![Python](https://img.shields.io/badge/Python_(AI--assisted)-3776AB?style=flat-square&logo=python&logoColor=white)
 
 **Frontend**
 
@@ -37,7 +35,7 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 ![Supabase](https://img.shields.io/badge/Supabase-3FCF8E?style=flat-square&logo=supabase&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white)
 ![Prisma](https://img.shields.io/badge/Prisma-2D3748?style=flat-square&logo=prisma&logoColor=white)
-![Auth0](https://img.shields.io/badge/Auth0-000000?style=flat-square&logo=auth0&logoColor=white)
+![Clerk](https://img.shields.io/badge/Clerk-6C47FF?style=flat-square&logo=clerk&logoColor=white)
 
 **Testing & DevOps**
 
@@ -47,6 +45,10 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat-square&logo=docker&logoColor=white)
 ![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=flat-square&logo=githubactions&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-181717?style=flat-square&logo=github&logoColor=white)
+![Sentry](https://img.shields.io/badge/Sentry-362D59?style=flat-square&logo=sentry&logoColor=white)
+![Grafana](https://img.shields.io/badge/Grafana-F46800?style=flat-square&logo=grafana&logoColor=white)
+![pytest](https://img.shields.io/badge/pytest-0A9EDC?style=flat-square&logo=pytest&logoColor=white)
+![Ruff](https://img.shields.io/badge/Ruff-D7FF64?style=flat-square&logo=ruff&logoColor=black)
 
 **Data & Visualization**
 
@@ -60,6 +62,10 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 ![Claude Code](https://img.shields.io/badge/Claude_Code-D97757?style=flat-square&logo=claudecode&logoColor=white)
 ![Gemini](https://img.shields.io/badge/Gemini-8E75B2?style=flat-square&logo=googlegemini&logoColor=white)
 ![NotebookLM](https://img.shields.io/badge/NotebookLM-000000?style=flat-square&logo=notebooklm&logoColor=white)
+![Langfuse](https://img.shields.io/badge/Langfuse-000000?style=flat-square)
+![Ragas](https://img.shields.io/badge/Ragas-evals-4B32C3?style=flat-square)
+![pgvector](https://img.shields.io/badge/pgvector-4169E1?style=flat-square&logo=postgresql&logoColor=white)
+![llama.cpp](https://img.shields.io/badge/llama.cpp-Qwen-333333?style=flat-square)
 
 **Project Management**
 
@@ -73,12 +79,15 @@ I'm not a software engineer. I've built enough with these tools to know what eac
 
 | Project | What it does | Stack | Version | Status | Link |
 |---|---|---|---|---|---|
+| **Requirements RAG** (internal, at work) | Answers technical-requirement questions for about 10 engineers with source citations. Refuses when no source scores high enough. Failed queries feed a regression set | Python, Gemini Flash, PostgreSQL pgvector + FTS, Cohere rerank, Pydantic, Ragas, Langfuse, Docker Compose | | ![Live](https://img.shields.io/badge/in_production-success?style=flat-square) | Internal |
+| **PM agent** (internal, at work) | Cron agent that turns daily meeting minutes and emails into timeline and to-do updates for an 8-person PM team | Gemini Flash-Lite | | ![Live](https://img.shields.io/badge/in_production_6_mo-success?style=flat-square) | Internal |
+| **mise-en-place** | Quality-gate catalog for apps and web apps: token fuzzing, BOLA/RLS tests, secret scanning, dependency audits, prompt-injection red-teaming. Built to block PRs automatically | Python, TypeScript, GitHub Actions, gitleaks, Garak | | ![Dev](https://img.shields.io/badge/in--development-yellow?style=flat-square) | Private |
 | **Batuta** | Claude Code plugin that applies program-management discipline to AI agents: classifies each task and routes it by model tier (Opus plans, Sonnet executes, Haiku reads), with delegation briefs, an escalation ladder and an independent verifier | Claude Code plugin (skills, subagents) | ![Version](https://img.shields.io/badge/version-0.1.0-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Published-success?style=flat-square) | [Repo](https://github.com/engelbertgm/Batuta) |
 | **Demi** | Ballet musicality and exercise trainer. 22 paying users, 100% retention (5 mo) | React+Tailwind, JavaScript, Firebase, ESLint, Vite, shadcn/ui | ![Version](https://img.shields.io/badge/version-1.0-success?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [demi-ballet.web.app](https://demi-ballet.web.app) |
 | **StackForge** | Visual technology-stack builder. 350-entry catalog where compatibility is declared as data, so the diagram is derived from rules rather than drawn by hand | React+TS+Tailwind, shadcn/ui, React Flow, Zustand, Vite | ![Version](https://img.shields.io/badge/version-0.3.0-blue?style=flat-square) | ![Local](https://img.shields.io/badge/Runs_locally-success?style=flat-square) | [Repo](https://github.com/engelbertgm/StackForge) |
 | **Oikofi** | Personal finance tracker. Multi-account, MSI handling, Sankey cash-flow viz | TS+Tailwind+shadcn/ui, PostgreSQL, React via Next.js, D3 | ![Version](https://img.shields.io/badge/version-0.1.4-blue?style=flat-square)  ![Next](https://img.shields.io/badge/next-0.2.0--dev-yellow?style=flat-square) | ![Next](https://img.shields.io/badge/active--dev-success?style=flat-square) | Private |
 | **Chord Ghost** | MuseScore 4 plugin. Roman-numeral analysis, cadence detection, custom canvas renderer | QML | ![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/engelbertgm/ChordGhost) |
-| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM | Next.js, TypeScript, Supabase (PostgreSQL)/Prisma, Auth0, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
+| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM. Self-hosted on a VPS with Docker Compose, Sentry alerts, Grafana KPIs | Next.js, TypeScript, PostgreSQL/Prisma, Clerk, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
 | **Risk-Neutral Density (Breeden-Litzenberger)** | Recovering implied risk-neutral density from options data | Python | | ![Next](https://img.shields.io/badge/in--progress-yellow?style=flat-square) | TBD |
 <!--
 ## Upcoming
