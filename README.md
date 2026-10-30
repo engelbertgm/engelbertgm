@@ -1,6 +1,6 @@
-## Engel Mandujano · AI Software Engineer
+## Engel Mandujano · Project Leader | AI Engineer
 
-LLM systems, RAG and agentic workflows · 7 years delivering HW/SW programs at Bosch
+Production RAG & Agents · Agentic Engineering · Spec-Driven Development · 7 years delivering HW/SW programs at Bosch
 
 I build and run production LLM systems: a RAG for technical requirements used by about 10 engineers, and a project-management agent used by a team of 8. Both run on Gemini. I work spec-first, let agents do long unattended runs, and put hard quality gates around the code they write (mypy strict, ruff, pytest, CI, an automated reviewer, security scans).
 
@@ -87,7 +87,7 @@ Passionate about: art, ballet, music, AI, business and people.
 | **StackForge** | Visual technology-stack builder. 350-entry catalog where compatibility is declared as data, so the diagram is derived from rules rather than drawn by hand | React+TS+Tailwind, shadcn/ui, React Flow, Zustand, Vite | ![Version](https://img.shields.io/badge/version-0.3.0-blue?style=flat-square) | ![Local](https://img.shields.io/badge/Runs_locally-success?style=flat-square) | [Repo](https://github.com/engelbertgm/StackForge) |
 | **Oikofi** | Personal finance tracker. Multi-account, MSI handling, Sankey cash-flow viz | TS+Tailwind+shadcn/ui, PostgreSQL, React via Next.js, D3 | ![Version](https://img.shields.io/badge/version-0.1.4-blue?style=flat-square)  ![Next](https://img.shields.io/badge/next-0.2.0--dev-yellow?style=flat-square) | ![Next](https://img.shields.io/badge/active--dev-success?style=flat-square) | Private |
 | **Chord Ghost** | MuseScore 4 plugin. Roman-numeral analysis, cadence detection, custom canvas renderer | QML | ![Version](https://img.shields.io/badge/version-5.4.2-blue?style=flat-square) | ![Stable](https://img.shields.io/badge/Deployed-success?style=flat-square) | [Repo](https://github.com/engelbertgm/ChordGhost) |
-| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM. Self-hosted on a VPS with Docker Compose, Sentry alerts, Grafana KPIs | Next.js, TypeScript, PostgreSQL/Prisma, Clerk, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
+| **Construction Ops Dashboard** | Full-stack ops dashboard. Cost, schedule, revenue, cash-flow, CRM. Self-hosted on a VPS with Docker Compose, Sentry alerts, Grafana KPIs | Next.js, TypeScript, Supabase (PostgreSQL), Prisma, Clerk, D3 | ![Version](https://img.shields.io/badge/version-1.7-lightgrey?style=flat-square) | ![NDA](https://img.shields.io/badge/private%20%2F%20NDA-lightgrey?style=flat-square) | Private |
 | **Risk-Neutral Density (Breeden-Litzenberger)** | Recovering implied risk-neutral density from options data | Python | | ![Next](https://img.shields.io/badge/in--progress-yellow?style=flat-square) | TBD |
 <!--
 ## Upcoming
